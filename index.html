@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Iconic pack -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css" />
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Joels Portfolio</title>
+  </head>
+  <body onload="oninit()">
+  <!-- START OF JUMBOTRON -->
+	<div class="jumbotron jumbotron-fluid">
+	  <div class="container">
+	    <h1 class="display-4">Hello, I am Joel Halford.</h1>
+	    <hr class="display-4">
+	    <p class="lead">I am a graduate of Software Engineering and <span id="love">love</span> Web Development;</p>
+	    <p class="lead follow">I mostly develop using HTML, CSS, JavaScript, Node, Express and MongoDB;</p>
+	    <p id="icons">
+	    	<img src="linkedIn.png">
+	    </p>
+	  </div>
+	</div>
+	<!-- END OF JUMBOTRON -->
+	<!-- START OF NAVBAR -->
+	<nav>
+	  <div id="nav" class="nav nav-tabs" id="nav-tab" role="tablist">
+	    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+	    	<span id="home-icon" class="oi oi-home"></span><span class="nav-text" id="home"> Home</span>
+	    </a>
+	    <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">
+	    	<span class="oi oi-person"></span><span class="nav-text" id="about"> About</span>
+	    </a>
+	    <a class="nav-item nav-link" id="nav-experience-tab" data-toggle="tab" href="#nav-experience" role="tab" aria-controls="nav-experience" aria-selected="false">
+	    	<span class="oi oi-terminal"></span><span class="nav-text" id="experience"> Experience</span>
+	  	</a>
+	    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
+	    	<span class="oi oi-envelope-closed"></span><span class="nav-text" id="contact"> Contact</span>
+	    </a>
+	  </div>
+	</nav>
+	<!-- END OF NAVBAR -->
+	<!-- START OF PANEL CONTENT -->
+	<div class="tab-content" id="nav-tabContent">
+		<!-- START OF HOME PANEL -->
+	  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">	
+			<div class="container content-container">
+			  <div class="row">
+			    <div class="col">
+				    	<h3 id="home-overview">Overview</h3>
+							<ul class="list-group list-group-flush">
+							  <li class="list-group-item">To find out more about me, visit 'About'.</li>
+							  <li class="list-group-item">To check what experience I have had, visit 'Experience'.</li>
+							  <li class="list-group-item">Want to get in touch? Use the contact page.</li>
+							  <li class="list-group-item">Or just have a play with the colours.</li>
+							</ul>
+			    </div>
+			    <div class="col coloured-column">
+			      <div class="row coloured-row"></div><div class="row coloured-row"></div>
+			      <div class="row coloured-row"></div><div class="row coloured-row"></div>
+			      <div class="row coloured-row"></div><div class="row coloured-row"></div>
+			      <div class="row coloured-row"></div><div class="row coloured-row"></div>
+			      <div class="row coloured-row"></div><div class="row coloured-row"></div>
+			      <div class="row coloured-row"></div><div class="row coloured-row"></div>
+			      <div class="row coloured-row"></div><div class="row coloured-row"></div>
+			    </div>
+			  </div>
+			</div>
+	  </div>
+	  <!-- END OF HOME PANEL -->
+	  <!-- START OF ABOUT PANEL -->
+	  <div class="tab-pane fade" id="nav-about" role="tabpanel" aria-labelledby="nav-about-tab">
+			<div class="container content-container">
+			  <div class="row">
+			    <div class="col">
+				    <h3 id="about-overview">About</h3>
+						<ul class="list-group list-group-flush">
+						  <li class="list-group-item">
+						  	<strong>Who are you?</strong>
+						  	<p>
+						  		My name is Joel Halford. I am a graduate from Sheffield Hallam with a 2:1 in Software Engineering BEng (Bachelor's Degree). I graduated in 2018.
+						  	</p>
+						  </li>
+						  <li class="list-group-item">
+						  	<strong>Do you have any certificates?</strong>
+						  	<p>
+						  		<ul>
+						  			<li>I have completed a Web Development course on Udemy by Colt Steele. This course can be located <a href="https://www.udemy.com/the-web-developer-bootcamp/learn/v4/content">here</a>.</li>
+										<li>PHP certificate via SoloLearn.</li>
+										<li>HTML certificate via SoloLearn.</li>
+									</ul>
+								</p>
+						  </li>
+						  <li class="list-group-item">
+						  	<strong>Give a brief description of your final year project.</strong>
+						  	<p>
+						  		For my FYP (Final Year Project) I designed a budgeting application. This website allowed used to login, create a monthly budget, track spending, share and view products and more. This web application was created using the MEAN stack. The website can be viewed <a href="http://www.budetsave.co.uk">here</a>.
+						  	</p>
+							</li>
+							</ul>
+	  			</div>
+			    <div class="col">
+				    <h3 id="about-overview2">me</h3>
+						<ul class="list-group list-group-flush">
+						  <li class="list-group-item">
+						  	<strong>Are you currently working?</strong>
+						  	<p>
+						  		I am currently working at Wilkos while studying Web Development in my free time.
+						  	</p>
+						  </li>
+						  <li class="list-group-item">
+						  	<strong>What types of experience do you have?</strong>
+						  	<ul>
+						  		<li>HTML and CSS</li>
+									<li>JavaScript and jQuery</li>
+									<li>Bootstrap / Semantic UI</li>
+									<li>Node.js</li>
+									<li>Express</li>
+									<li>Pug, react, angular2 and ejs</li>
+									<li>MongoDB</li>
+									<li>More...</li>
+						  	</ul>
+						  </li>
+							</ul>
+	  			</div>
+	  		</div>
+			</div>
+		</div>
+		<!-- END OF ABOUT PANEL -->
+		<!-- START OF EXPERIENCE PANEL -->
+	  <div class="tab-pane fade" id="nav-experience" role="tabpanel" aria-labelledby="nav-experience-tab">
+			<div class="container content-container">
+	  		<div class="row">
+	  			<div class="col">
+						<div class="card" style="width: 18rem;">
+						  <img class="card-img-top project-image" src="who.jpg" alt="Card image cap">
+						  <div class="card-body">
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+	  			</div>
+	  			<div class="col">
+						<div class="card" style="width: 18rem;">
+						  <img class="card-img-top project-image" src="who.jpg" alt="Card image cap">
+						  <div class="card-body">
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+	  			</div>
+	  			<div class="col">
+						<div class="card" style="width: 18rem;">
+						  <img class="card-img-top project-image" src="who.jpg" alt="Card image cap">
+						  <div class="card-body">
+						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						  </div>
+						</div>
+	  			</div>
+	  		</div>
+			</div>
+		</div>
+		<!-- END OF EXPERIENCE PANEL -->
+		<!-- START OF CONTACT PANEL -->
+	  <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+			<div class="container content-container">
+	  		<h1>Hello, world!</h1>
+			</div>
+	  </div>
+	  <!-- END OF CONTACT PANEL -->
+	</div>
+	<!-- END OF PANEL CONTENT -->
+  <!-- START OF FOOTER  -->
+	<footer class="footer">
+		<div class="container">
+			<span class="text-muted">Copyright: Joel Halford (2018)</span>
+		</div>
+	</footer>
+  <!-- END OF FOOTER -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script
+	  src="https://code.jquery.com/jquery-3.3.1.js"
+	  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+	  crossorigin="anonymous">		  	
+	</script>
+  <script 
+   	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+   	integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" 
+   	crossorigin="anonymous">
+  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"	  integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" 
+    crossorigin="anonymous">
+  </script>
+  <script src="main.js"></script>
+  </body>
+</html>
