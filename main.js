@@ -18,21 +18,25 @@ $(document).ready(function(){
 $('#nav-home-tab').on('click', function(){
 	$('.nav-text').slideDown("slow");
 	$('#home').slideUp("slow");
+	bannerColour();
 });
 
 $('#nav-about-tab').on('click', function(){
 	$('.nav-text').slideDown("slow");
 	$('#about').slideUp("slow");
+	bannerColour();
 });
 
 $('#nav-experience-tab').on('click', function(){
 	$('.nav-text').slideDown("slow");
 	$('#experience').slideUp("slow");
+	bannerColour();
 });
 
 $('#nav-contact-tab').on('click', function(){
 	$('.nav-text').slideDown("slow");
 	$('#contact').slideUp("slow");
+	bannerColour();
 });
 
 $('.coloured-row').on('mouseover', function(){
@@ -63,9 +67,10 @@ function bannerColour(){
 	var b = Math.floor(Math.random()*(255-150+1)+150);
 	var rgb = 'rgb(' + r + ", " + g + ", " + b + ')';
 
-	$('.jumbotron').css("background-color", rgb);
 	$('.jumbotron hr').css("background-image", 
-	 	'linear-gradient(to right,' + rgb + ", #333," + rgb);
+	 	'linear-gradient(to right,' + rgb + ", #333," + rgb);	
+	$('.jumbotron').css("background-image", 
+	 	'linear-gradient(to bottom,' + rgb + ", 40%, #fff");
 };
 
 function randomWidth(){

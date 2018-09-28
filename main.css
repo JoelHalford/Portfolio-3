@@ -86,7 +86,7 @@ body {
 
 #nav .nav-link.active {
 	border-top: 0px;
-	border-left: 1px solid #888a8c;
+	border-left: 1px solid rgba(136, 138, 140, 0.4);
 	border-right: 0px;
 	border-bottom: 0px;
 	color: #888a8c;
