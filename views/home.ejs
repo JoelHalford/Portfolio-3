@@ -1,10 +1,26 @@
 <% include partials/header %>
-
+	<!-- START OF NAVBAR -->
+	<nav>
+	  <div id="nav" class="nav nav-tabs" id="nav-tab" role="tablist">
+	    <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home" role="tab" aria-controls="nav-home" aria-selected="true">
+	    	<span id="home-icon" class="oi oi-home"></span><span class="nav-text" id="home"> Home</span>
+	    </a>
+	    <a class="nav-item nav-link" id="nav-about-tab" data-toggle="tab" href="#nav-about" role="tab" aria-controls="nav-about" aria-selected="false">
+	    	<span class="oi oi-person"></span><span class="nav-text" id="about"> About</span>
+	    </a>
+	    <a class="nav-item nav-link" id="nav-experience-tab" data-toggle="tab" href="#nav-experience" role="tab" aria-controls="nav-experience" aria-selected="false">
+	    	<span class="oi oi-terminal"></span><span class="nav-text" id="experience"> Experience</span>
+	  	</a>
+	    <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact" role="tab" aria-controls="nav-contact" aria-selected="false">
+	    	<span class="oi oi-envelope-closed"></span><span class="nav-text" id="contact"> Contact</span>
+	    </a>
+	  </div>
+	</nav>
 	<!-- START OF PANEL CONTENT -->
 	<div class="tab-content" id="nav-tabContent">
 		<!-- START OF HOME PANEL -->
 	  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab">	
-			<div class="container content-container">
+			<div id="home-container" class="container content-container">
 			  <div class="row">
 			    <div class="col">
 				    	<h3 id="home-overview">Overview</h3>
@@ -90,6 +106,8 @@
 		<!-- START OF EXPERIENCE PANEL -->
 	  <div class="tab-pane fade" id="nav-experience" role="tabpanel" aria-labelledby="nav-experience-tab">
 			<div class="container content-container">
+				<h2 id="project-header">Projects/Experience</h2>
+				<p class="lead">Here are some of my projects. These projects are from various sources. This includes: University, bootcamp(s) and in my spare time. </p>
 	  		<div class="row">
 	  			<div class="col">
 						<div class="card" style="width: 18rem;">
@@ -111,9 +129,18 @@
 	  			</div>
 	  			<div class="col">
 						<div class="card" style="width: 18rem;">
+						  <img class="card-img-top project-image" src="images/faqdarkmode.png" alt="Card image cap">
+						  <div class="card-body">
+						  	<h5 class="card-title"><a href="/urban-transport">View Designs</a></h5>
+						    <p class="card-text">Designs from an alpha build of a Java project.</p>
+						  </div>
+						</div>
+	  			</div>
+	  			<div class="col">
+						<div class="card" style="width: 18rem;">
 						  <img class="card-img-top project-image" src="images/who.jpg" alt="Card image cap">
 						  <div class="card-body">
-						    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						    <p class="card-text">More projects to be added once hosted!</p>
 						  </div>
 						</div>
 	  			</div>

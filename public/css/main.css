@@ -7,7 +7,7 @@ body {
 	margin: 0 auto;
 }
 
-.jumbotron .display-4, .lead {
+.jumbotron .display-4, .lead, .image-details, #urban-transport-header, #project-header {
 	text-align: center;
 }
 
@@ -95,7 +95,7 @@ body {
 	margin-top: 10px;
 }
 
-.content-container {
+#nav-about, #nav-home, #nav-experience, #nav-contact {
 	margin-bottom: 100px;
 	padding-top: 150px;
 }
@@ -124,12 +124,6 @@ body {
 #about-overview {
 	text-align: right;
 }
-/*#about-image {
-	margin-bottom: 2%;
-	width: 80%;
-	float: right;
-	opacity: 0.5;
-}*/
 
 .project-image {
 	width: 100%;
@@ -157,6 +151,22 @@ body {
 	margin-bottom: 2em;
 }
 
+.urban-transport-image, .urban-transport-image img {
+	width: 100%;
+	float: left;
+}
+
+.back-icon {
+	float: left;
+}
+
+.back-link {
+	text-decoration: none;
+}
+
+#urban-container {
+	margin-bottom: 100px;
+}
 .footer {
   position: fixed;
   bottom: 0;
