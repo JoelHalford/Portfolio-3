@@ -8,7 +8,7 @@ app.use(express.static(__dirname + "/public"));
 
 app.use("/", indexRoutes);
 
-app.listen(3000,'localhost')
+app.listen(process.env.PORT || 8080)
 {
 	console.log("You are currently connected to the server.");
 }
