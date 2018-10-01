@@ -140,6 +140,23 @@ body {
 	margin: 10px auto;
 }
 
+.card-body {
+	text-align: center;
+}
+
+.contact-details {
+	float: right;
+}
+
+#contact-container {
+	width: 600px;
+}
+
+#contact-title {
+	text-align: center;
+	margin-bottom: 2em;
+}
+
 .footer {
   position: fixed;
   bottom: 0;

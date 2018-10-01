@@ -16,6 +16,7 @@ $(document).ready(function(){
 });
 
 $('#nav-home-tab').on('click', function(){
+	console.log("hi");
 	$('.nav-text').slideDown("slow");
 	$('#home').slideUp("slow");
 	bannerColour();
@@ -46,6 +47,7 @@ $('.coloured-row').on('mouseover', function(){
 });
 
 function oninit(){
+	$('#home').slideUp("slow");
 	bannerColour();
 	rowColour();
 };

@@ -1,0 +1,25 @@
+{
+  "name": "portfolio3",
+  "version": "1.0.0",
+  "description": "My Portfolio Website",
+  "main": "app.js",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoelHalford/Portfolio-3.git"
+  },
+  "author": "Joel Halford",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoelHalford/Portfolio-3/issues"
+  },
+  "homepage": "https://github.com/JoelHalford/Portfolio-3#readme"
+}
