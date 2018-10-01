@@ -48,36 +48,36 @@ body {
 /* If the screen size is 601px wide or more, set the font-size of <div> to 80px */
 @media screen and (min-width: 851px) {
   #nav .nav-link {
-    font-size: 1.3em;
+    font-size: 1em;
   }
 }
 
 /*If the screen size is 601px wide or more, set the font-size of <div> to 80px */
-@media screen and (max-width: 850px) {
+/*@media screen and (max-width: 850px) {
   #nav .nav-link {
     font-size: 0.7em;
   }
-}
+}*/
 
-#nav .nav-link:nth-of-type(1){
+/*#nav .nav-link:nth-of-type(1){
 	position: absolute;
-	left: 20%;
+	left: 10%;
 }
 
 #nav .nav-link:nth-of-type(2){
 	position: absolute;
-	left: 40%;
+	left: 30%;
 }
 
 #nav .nav-link:nth-of-type(3){
 	position: absolute;
-	left: 60%;
+	left: 50%;
 }
 
 #nav .nav-link:nth-of-type(4){
 	position: absolute;
-	left: 80%;
-}
+	left: 70%;
+}*/
 
 #nav .nav-link:hover{
 	border: 0px;
@@ -92,12 +92,11 @@ body {
 	color: #888a8c;
 }
 .container {
-	margin-top: 10px;
+	margin-top: 4em;
 }
 
 #nav-about, #nav-home, #nav-experience, #nav-contact {
 	margin-bottom: 100px;
-	padding-top: 150px;
 }
 
 .coloured-row {
@@ -140,10 +139,6 @@ body {
 
 .contact-details {
 	float: right;
-}
-
-#contact-container {
-	width: 600px;
 }
 
 #contact-title {

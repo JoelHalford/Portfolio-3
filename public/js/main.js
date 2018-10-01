@@ -17,26 +17,26 @@ $(document).ready(function(){
 
 $('#nav-home-tab').on('click', function(){
 	console.log("hi");
-	$('.nav-text').slideDown("slow");
-	$('#home').slideUp("slow");
+	$('.nav-text').fadeTo(500, 0.6);
+	$('#home').fadeTo(500, 1);
 	bannerColour();
 });
 
 $('#nav-about-tab').on('click', function(){
-	$('.nav-text').slideDown("slow");
-	$('#about').slideUp("slow");
+	$('.nav-text').fadeTo(500, 0.6);
+	$('#about').fadeTo(500, 1);
 	bannerColour();
 });
 
 $('#nav-experience-tab').on('click', function(){
-	$('.nav-text').slideDown("slow");
-	$('#experience').slideUp("slow");
+	$('.nav-text').fadeTo(500, 0.6);
+	$('#experience').fadeTo(500, 1);
 	bannerColour();
 });
 
 $('#nav-contact-tab').on('click', function(){
-	$('.nav-text').slideDown("slow");
-	$('#contact').slideUp("slow");
+	$('.nav-text').fadeTo(500, 0.6);
+	$('#contact').fadeTo(500, 1);
 	bannerColour();
 });
 
@@ -47,7 +47,6 @@ $('.coloured-row').on('mouseover', function(){
 });
 
 function oninit(){
-	$('#home').slideUp("slow");
 	bannerColour();
 	rowColour();
 };
